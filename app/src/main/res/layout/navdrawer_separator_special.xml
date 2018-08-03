@@ -1,0 +1,19 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/navdrawer_separator"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:paddingTop="4dp"
+            android:paddingBottom="6dp"
+            android:text="@string/navdrawer_separator_assist_data"
+            android:textColor="@color/navdrawer_icon_tint_light"
+            android:textStyle="bold"/>
+</LinearLayout>
